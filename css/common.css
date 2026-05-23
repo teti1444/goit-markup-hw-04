@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 
@@ -32,3 +32,25 @@ img {
     padding: 120px 0;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+ul,
+ol {
+    margin: 0;    
+    padding-left: 0;
+}
+
+p {
+    margin: 0;
+}
