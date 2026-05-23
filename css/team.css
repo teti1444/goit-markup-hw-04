@@ -1,5 +1,6 @@
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -9,6 +10,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-subtitle {
@@ -29,4 +31,10 @@
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100%-72)/4);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }

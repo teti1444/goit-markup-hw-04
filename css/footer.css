@@ -1,5 +1,6 @@
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -11,6 +12,8 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -21,4 +24,5 @@
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }

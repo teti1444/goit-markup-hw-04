@@ -6,6 +6,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-logo-span {
@@ -14,6 +17,7 @@
 
 .header { 
     background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .nav-link:hover,
@@ -28,6 +32,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    padding: 24px 0;
+    display: block;
 }
 
 .address-link:hover,
@@ -40,4 +46,35 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    font-style: normal;
+    padding: 24px 0;
+    display: block;
+ }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    min-height: 72px;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.adress-list {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.address {
+    margin-left: auto;
 }
