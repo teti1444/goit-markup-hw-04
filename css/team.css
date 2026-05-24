@@ -34,7 +34,7 @@
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     overflow: hidden;
-    width: calc((100%-72) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list {
