@@ -30,3 +30,16 @@
  .features-item {
     width:calc((100% - 72px) / 4);
  }
+
+ .features-icon-box {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+ }
